@@ -18,3 +18,6 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+beforeEach(() => {
+    cy.visit('http://ecommerce.test.k6.io/');
+})
